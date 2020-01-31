@@ -1,4 +1,4 @@
-arrays = ["Ruby", "JavaScript", "Python", "Objective-C"]
+
 
 
 def my_collect(empty_array)
@@ -10,3 +10,6 @@ def my_collect(empty_array)
   end
   collection
 end
+
+
+my_collect(array) {|name| name.split(" ").first}
