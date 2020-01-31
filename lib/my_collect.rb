@@ -1,6 +1,6 @@
+array = ["Ruby", "JavaScript", "Python", "Objective-C"]
+
 
 def my_collect(empty_array)
-  my_collect(empty_array) do |name|
-    name.upcase
-  end
+ 
 end
